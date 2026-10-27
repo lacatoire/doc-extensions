@@ -1,15 +1,37 @@
-# PHP Third-Party Extension Documentation
+<p align="center"><a href="https://www.php.net/manual/extensions/" target="_blank">
+    <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" width="140">
+</a></p>
 
-This repository hosts documentation for third-party PHP extensions,
-extensions maintained outside the [`php-src`](https://github.com/php/php-src)
-repository (typically distributed via PECL or PIE).
+<h3 align="center">
+  PHP Third-Party Extension Documentation
+</h3>
+
+<p align="center">
+  <a href="https://www.php.net/manual/extensions/">Read the manual</a>
+  <span> | </span>
+  <a href="https://doc.php.net/guide/contributing.md">Contributing</a>
+  <span> | </span>
+  <a href="https://github.com/php/doc-base/blob/master/docs/overview.md">Documentation pipeline</a>
+  <span> | </span>
+  <a href="#migration-from-doc-en">Migration from doc-en</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/php/doc-extensions/actions/workflows/integrate.yaml"><img src="https://github.com/php/doc-extensions/actions/workflows/integrate.yaml/badge.svg" alt="Integrate"></a>
+  <a href="https://github.com/php/doc-extensions/actions/workflows/docbook-cs.yaml"><img src="https://github.com/php/doc-extensions/actions/workflows/docbook-cs.yaml/badge.svg" alt="DocBook Lint"></a>
+</p>
+
+This repository hosts documentation for third-party PHP extensions, extensions
+maintained outside the [`php-src`](https://github.com/php/php-src) repository
+(typically distributed via PECL or PIE).
 
 It exists as a result of
 [the RFC on separation of third-party extension documentation](https://wiki.php.net/rfc/third_party_ext_documentation),
 and is intended to be rendered as part of the PHP manual at
 [php.net/manual/extensions/](https://www.php.net/manual/extensions/).
 
-## Contributing
+Contributing
+------------
 
 Pull requests are welcome from anyone. Extension maintainers may additionally
 request commit access.
@@ -21,28 +43,36 @@ were not carried over from the main manual.
 For general guidance on the documentation format, refer to the
 [contribution guidelines](https://doc.php.net/guide/contributing.md).
 
-## Building With make and Docker
+Build the documentation locally
+-------------------------------
 
-- Install Docker (https://docs.docker.com/get-docker/)
-- Rebuild the documentation using `make`
-- Open output/php-chunked-xhtml/ in your browser.
+1. Install [Docker](https://docs.docker.com/get-docker/).
+2. Rebuild the documentation with `make`.
+3. Open `output/php-chunked-xhtml/` in your browser.
 
-If the `doc-base` or `phd` repositories are available in directories to the
-adjacent to this directory, those will be used for building.
+```bash
+make
+```
 
-To force the Docker image used for building to itself be rebuilt, you can run
-`make -B build`, otherwise the `Makefile` will only build it if does not
-already exist.
+If the `doc-base` or `phd` repositories are available in directories adjacent
+to this one, they are used for building.
 
-You can also build the `web` version of the documentation with `make php`
-and the output will be placed in output/php-web
+> [!NOTE]
+> The Docker image is only built if it does not already exist. To force a
+> rebuild, run `make -B build`.
 
-## Documentation pipeline
+You can also build the `web` version of the documentation with `make php`; the
+output is placed in `output/php-web`.
 
-For more information on the various repositories that make up PHP's documentation pipeline,
-see this [overview](https://github.com/php/doc-base/blob/master/docs/overview.md).
+Documentation pipeline
+----------------------
 
-## Migration from doc-en
+For more information on the various repositories that make up PHP's
+documentation pipeline, see this
+[overview](https://github.com/php/doc-base/blob/master/docs/overview.md).
+
+Migration from doc-en
+---------------------
 
 The history of this repository was extracted from [php/doc-en](https://github.com/php/doc-en)
 with `git filter-repo`, preserving the full commit history (authors, dates, and messages)
