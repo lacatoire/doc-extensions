@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.php.net/manual/extensions/">Read the manual</a>
   <span> | </span>
-  <a href="https://doc.php.net/guide/contributing.md">Contributing</a>
+  <a href=".github/CONTRIBUTING.md">Contributing</a>
   <span> | </span>
   <a href="https://github.com/php/doc-base/blob/master/docs/overview.md">Documentation pipeline</a>
   <span> | </span>
@@ -29,18 +29,6 @@ It exists as a result of
 [the RFC on separation of third-party extension documentation](https://wiki.php.net/rfc/third_party_ext_documentation),
 and is intended to be rendered as part of the PHP manual at
 [php.net/manual/extensions/](https://www.php.net/manual/extensions/).
-
-Contributing
-------------
-
-Pull requests are welcome from anyone.
-
-Each extension lives in its own directory under `reference/`. Only the English
-canonical documentation is maintained here; per the RFC, existing translations
-were not carried over from the main manual.
-
-For general guidance on the documentation format, refer to the
-[contribution guidelines](https://doc.php.net/guide/contributing.md).
 
 Build the documentation locally
 -------------------------------
