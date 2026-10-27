@@ -33,8 +33,7 @@ and is intended to be rendered as part of the PHP manual at
 Contributing
 ------------
 
-Pull requests are welcome from anyone. Extension maintainers may additionally
-request commit access.
+Pull requests are welcome from anyone.
 
 Each extension lives in its own directory under `reference/`. Only the English
 canonical documentation is maintained here; per the RFC, existing translations
