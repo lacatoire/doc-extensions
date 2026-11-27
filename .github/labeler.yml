@@ -1,0 +1,471 @@
+# Maps each reference/ directory to its extension label.
+
+"Extension: apcu":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/apcu/**/*
+
+"Extension: cmark":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/cmark/**/*
+
+"Extension: componere":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/componere/**/*
+
+"Extension: cubrid":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/cubrid/**/*
+
+"Extension: dbase":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/dbase/**/*
+
+"Extension: dio":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/dio/**/*
+
+"Extension: ds":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/ds/**/*
+
+"Extension: eio":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/eio/**/*
+
+"Extension: ev":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/ev/**/*
+
+"Extension: event":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/event/**/*
+
+"Extension: expect":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/expect/**/*
+
+"Extension: fann":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/fann/**/*
+
+"Extension: fdf":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/fdf/**/*
+
+"Extension: gearman":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/gearman/**/*
+
+"Extension: gender":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/gender/**/*
+
+"Extension: geoip":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/geoip/**/*
+
+"Extension: gmagick":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/gmagick/**/*
+
+"Extension: gnupg":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/gnupg/**/*
+
+"Extension: hrtime":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/hrtime/**/*
+
+"Extension: ibase":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/ibase/**/*
+
+"Extension: ibm_db2":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/ibm_db2/**/*
+
+"Extension: igbinary":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/igbinary/**/*
+
+"Extension: imagick":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/imagick/**/*
+
+"Extension: inotify":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/inotify/**/*
+
+"Extension: lua":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/lua/**/*
+
+"Extension: luasandbox":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/luasandbox/**/*
+
+"Extension: lzf":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/lzf/**/*
+
+"Extension: mailparse":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/mailparse/**/*
+
+"Extension: mcrypt":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/mcrypt/**/*
+
+"Extension: memcache":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/memcache/**/*
+
+"Extension: memcached":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/memcached/**/*
+
+"Extension: mongodb":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/mongodb/**/*
+
+"Extension: mqseries":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/mqseries/**/*
+
+"Extension: mysql":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/mysql/**/*
+
+"Extension: mysql_xdevapi":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/mysql_xdevapi/**/*
+
+"Extension: oauth":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/oauth/**/*
+
+"Extension: openal":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/openal/**/*
+
+"Extension: operator":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/operator/**/*
+
+"Extension: parallel":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/parallel/**/*
+
+"Extension: parle":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/parle/**/*
+
+"Extension: pdo_cubrid":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/pdo_cubrid/**/*
+
+"Extension: pdo_ibm":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/pdo_ibm/**/*
+
+"Extension: pdo_informix":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/pdo_informix/**/*
+
+"Extension: pdo_sqlsrv":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/pdo_sqlsrv/**/*
+
+"Extension: ps":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/ps/**/*
+
+"Extension: pthreads":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/pthreads/**/*
+
+"Extension: quickhash":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/quickhash/**/*
+
+"Extension: radius":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/radius/**/*
+
+"Extension: rar":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/rar/**/*
+
+"Extension: recode":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/recode/**/*
+
+"Extension: rnp":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/rnp/**/*
+
+"Extension: rpminfo":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/rpminfo/**/*
+
+"Extension: rrd":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/rrd/**/*
+
+"Extension: runkit7":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/runkit7/**/*
+
+"Extension: scoutapm":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/scoutapm/**/*
+
+"Extension: seaslog":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/seaslog/**/*
+
+"Extension: simdjson":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/simdjson/**/*
+
+"Extension: solr":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/solr/**/*
+
+"Extension: sqlsrv":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/sqlsrv/**/*
+
+"Extension: ssdeep":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/ssdeep/**/*
+
+"Extension: ssh2":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/ssh2/**/*
+
+"Extension: stats":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/stats/**/*
+
+"Extension: stomp":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/stomp/**/*
+
+"Extension: svm":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/svm/**/*
+
+"Extension: svn":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/svn/**/*
+
+"Extension: swoole":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/swoole/**/*
+
+"Extension: sync":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/sync/**/*
+
+"Extension: taint":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/taint/**/*
+
+"Extension: tcpwrap":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/tcpwrap/**/*
+
+"Extension: trader":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/trader/**/*
+
+"Extension: ui":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/ui/**/*
+
+"Extension: uopz":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/uopz/**/*
+
+"Extension: v8js":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/v8js/**/*
+
+"Extension: var_representation":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/var_representation/**/*
+
+"Extension: varnish":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/varnish/**/*
+
+"Extension: wddx":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/wddx/**/*
+
+"Extension: win32service":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/win32service/**/*
+
+"Extension: wincache":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/wincache/**/*
+
+"Extension: wkhtmltox":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/wkhtmltox/**/*
+
+"Extension: xattr":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/xattr/**/*
+
+"Extension: xdiff":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/xdiff/**/*
+
+"Extension: xhprof":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/xhprof/**/*
+
+"Extension: xlswriter":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/xlswriter/**/*
+
+"Extension: xmldiff":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/xmldiff/**/*
+
+"Extension: xmlrpc":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/xmlrpc/**/*
+
+"Extension: xpass":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/xpass/**/*
+
+"Extension: yac":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/yac/**/*
+
+"Extension: yaconf":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/yaconf/**/*
+
+"Extension: yaf":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/yaf/**/*
+
+"Extension: yaml":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/yaml/**/*
+
+"Extension: yar":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/yar/**/*
+
+"Extension: yaz":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/yaz/**/*
+
+"Extension: zmq":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/zmq/**/*
+
+"Extension: zookeeper":
+  - changed-files:
+      - any-glob-to-any-file:
+        - reference/zookeeper/**/*
